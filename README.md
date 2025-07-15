@@ -28,13 +28,13 @@ This API allows you to:
 
 ## 📡 API Endpoints
 
-| Method | Endpoint               | Description           |
-|--------|------------------------|-----------------------|
-| GET    | `/api/employees`       | Get all employees     |
-| GET    | `/api/employees/{id}`  | Get employee by ID    |
-| POST   | `/api/employees`       | Add a new employee    |
-| PUT    | `/api/employees/{id}`  | Update an employee    |
-| DELETE | `/api/employees/{id}`  | Delete an employee    |
+| Method | Endpoint                         | Description                   |
+|--------|----------------------------------|-------------------------------|
+| GET    | `/api/employeeList`              | Get all employees             |
+| GET    | `/api/getByEmployeeId/{id}`      | Get employee by ID            |
+| POST   | `/api/addEmployee`               | Add a new employee            |
+| PUT    | `/api/updateEmployee/{id}`       | Update an existing employee   |
+| DELETE | `/api/deleteEmployee/{id}`       | Delete an employee            |
 
 ---
 
